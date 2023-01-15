@@ -1,0 +1,85 @@
+/** Make website responsive for bonus marks */
+@media screen and (max-width: 688px) {
+  .header {
+    padding: 0 5px;
+  }
+  .nav-title {
+    font-size: 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+    margin-right: 10px;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner-description {
+    padding: 0;
+  }
+  .our-features {
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 10px;
+  }
+  .teams {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .teams img {
+    width: 100%;
+  }
+  .you-love-features {
+    flex-direction: column;
+    padding: 100px 10px;
+    gap: 20px;
+  }
+  .you-love-features .architect {
+    width: 100%;
+    height: auto;
+  }
+  .experience-btn {
+    background: #ff900e;
+    border-radius: 8px;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    transform: translate(-10px, -35px);
+  }
+  .experience-btn span:nth-child(1) {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .experience-btn span:nth-child(3) {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .about-facts {
+    padding: 0 5px;
+  }
+  .facts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .fact-title {
+    font-size: 25px;
+  }
+  .fact-name {
+    font-size: 15px;
+  }
+  .companies{
+    padding: 0 5px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer{
+    width: 100%;
+    font-size: 15px;
+  }
+}
