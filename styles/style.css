@@ -65,8 +65,6 @@ body {
 }
 .nav-links li {
   list-style: none;
-}
-.nav-links li:hover {
   cursor: pointer;
 }
 .menu-bar {
